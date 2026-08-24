@@ -1,0 +1,48 @@
+{
+ "name": "Detective — Casos en grupo",
+ "short_name": "Detective",
+ "description": "Casos de misterio cooperativos: cada jugador recibe una pista privada.",
+ "id": "/detective/",
+ "start_url": "./?app=1",
+ "scope": "./",
+ "display": "standalone",
+ "display_override": [
+  "standalone",
+  "minimal-ui"
+ ],
+ "orientation": "portrait",
+ "background_color": "#0B0B10",
+ "theme_color": "#0B0B10",
+ "lang": "es-PE",
+ "dir": "ltr",
+ "categories": [
+  "games",
+  "entertainment"
+ ],
+ "icons": [
+  {
+   "src": "icono-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icono-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icono-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "maskable"
+  },
+  {
+   "src": "icono-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
