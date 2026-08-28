@@ -1,4 +1,4 @@
-var CACHE='det-v1';
+var CACHE='det-0567d7aea9';
 self.addEventListener('install',function(e){self.skipWaiting();});
 self.addEventListener('activate',function(e){
   e.waitUntil(caches.keys().then(function(ks){return Promise.all(ks.map(function(k){if(k!==CACHE)return caches.delete(k);}));}));
